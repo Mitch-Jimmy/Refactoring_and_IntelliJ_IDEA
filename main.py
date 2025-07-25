@@ -1,4 +1,4 @@
-count = 5
+id = 5
 foo = [ 0, 1, 2, 3, 4 ]
 
 # bigger variable
@@ -20,5 +20,5 @@ def countEvenNum(arr, size):
     return count
 
 # call the function
-print("The total number of even numbers in foo are: ", countEvenNum(foo, count))
+print("The total number of even numbers in foo are: ", countEvenNum(foo, id))
 print("The total number of even numbers in bar are: ", countEvenNum(bar, m))
